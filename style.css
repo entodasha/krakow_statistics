@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif; /* Font style */
+    line-height: 1.6; /* Line height for better readability */
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark text color */
+}
+
+/* Header styles */
+.header {
+  background: #35424a; /* Dark background */
+  color: #ffffff; /* White text color */
+  padding: 20px; /* Padding around the header */
+  text-align: center; /* Center the text */
+  background-image: url(header_copy.png);
+  height: 500px;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+
+/* Main content styles */
+.main {
+    padding: 20px; /* Padding around main content */
+}
+
+/* Section styles */
+.section {
+    background: #ffffff; /* White background for sections */
+    margin: 20px 0; /* Margin between sections */
+    padding: 20px; /* Padding within sections */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Heading styles */
+h1 {
+    font-size: 2em; /* Large font size for main heading */
+    margin-bottom: 10px; /* Margin below the heading */
+}
+
+h2 {
+    font-size: 1.5em; /* Medium font size for subheadings */
+    margin-bottom: 10px; /* Margin below subheadings */
+}
+
+/* Paragraph styles */
+.text {
+    margin-bottom: 15px; /* Margin below paragraphs */
+}
+
+.float-left {
+  width: 500px;
+  padding: 0 20px;
+}
+
+/* Table styles */
+.table {
+    width: 100%; /* Full-width table */
+    border-collapse: collapse; /* Collapse table borders */
+    margin-top: 20px; /* Margin above the table */
+}
+
+th, td {
+    padding: 10px; /* Padding within table cells */
+    text-align: left; /* Left-align text */
+    border: 1px solid #ddd; /* Light gray border */
+}
+
+th {
+    background-color: #35424a; /* Dark background for table header */
+    color: #ffffff; /* White text for header */
+}
